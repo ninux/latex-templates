@@ -1,0 +1,30 @@
+\input{tex/title}
+
+\newpage
+\tableofcontents
+
+% document contents
+\newpage
+\input{tex/myfirstchapter}
+
+% appendix
+\newpage
+\input{tex/appendix}
+
+% bibliography
+\newpage
+\input{tex/bib}
+
+% list of figures 
+\newpage
+\cleardoublepage
+% \phantomsection
+\addcontentsline{toc}{section}{\listfigurename}
+\listoffigures
+
+% lsit of tables
+\newpage
+\cleardoublepage
+% \phantomsection
+\addcontentsline{toc}{section}{\listtablename}
+\listoftables
